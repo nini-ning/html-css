@@ -1,0 +1,50 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-06-17 22:02:46
+ * @LastEditTime: 2021-06-17 22:08:15
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \html\day4\表格细线边框.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 500px;
+            height: 300px;
+            border: 1px solid red;
+        }
+        td{
+            border: 1px solid red;
+            text-align: center;
+        }
+        tr,td{
+            border-collapse: collapse;/*合并相邻边框*/
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0" cellpadding="0">
+        <tr>
+            <td>天王盖地虎</td>
+            <td>天王盖地虎</td>
+            <td>天王盖地虎</td>
+        </tr>
+        <tr>
+            <td>天王盖地虎</td>
+            <td>天王盖地虎</td>
+            <td>天王盖地虎</td>
+        </tr>
+        <tr>
+            <td>小鸡炖蘑菇</td>
+            <td>小鸡炖蘑菇</td>
+            <td>小鸡炖蘑菇</td>
+        </tr>
+    </table>
+</body>
+</html>

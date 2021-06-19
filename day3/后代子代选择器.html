@@ -1,0 +1,69 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-06-17 15:12:02
+ * @LastEditTime: 2021-06-17 15:21:46
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \html\day3\后代子代选择器.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*后代选择器指所有的a */
+     /* ul li a{
+        font-size: 56px;
+    }
+    子代选择器亲儿子 
+    ul li>a{
+        color: red;
+    }
+    ul>li>a{
+        font-weight: 700;
+    }  */
+    .father>li>a {
+        color: blueviolet;
+    }
+</style>
+<body>
+    <!-- <ul>
+        <li>
+            <a href="#">一级菜单</a>
+            <div>
+                <a href="">
+                    二级菜单
+                </a>
+                <a href="">
+                    二级菜单
+
+                </a>
+                <a href="">
+                    二级菜单
+
+                </a>
+                <a href="">
+                    二级菜单
+
+                </a>
+            </div>
+        </li>
+    </ul> -->
+    <ul class="father">
+		<li>
+		   <a href="#">123</a>
+
+		   <ul>
+		      	
+		      	<li>
+		      		<a href="#">abc</a>
+		      	</li>
+		    </ul>
+		</li>
+	</ul>
+</body>
+</html>

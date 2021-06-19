@@ -1,0 +1,71 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-06-18 16:55:16
+ * @LastEditTime: 2021-06-18 17:13:54
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \html\day6\固定广告案例.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       body{
+           height: 3000px;
+       }
+       *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+       .father{
+           background: url(images/box.png) no-repeat;
+           width: 1002px;
+           margin: 0 auto;
+           position: relative;
+           height: 2000px;
+       }
+       .top{
+            background: url(images/top.png) no-repeat;
+            width: 1519px;
+            height: 44px;
+            position: fixed;
+            z-index: 999;
+       }
+       .left,.right{
+            height: 44px;
+            width: 120px;
+            height: 288px;
+            top:50%;
+            margin-top:-144px;
+            position: fixed;
+       }
+       .left{
+           background: url(images/ad-l.png) no-repeat;
+           left:0;
+       }
+       .right{
+           background:url(images/ad-r.png) no-repeat;
+           right: 0;
+       }
+   </style>
+</head>
+<body>
+    <div class="top">
+
+    </div>
+    <div class="father">
+        
+        <div class="left">
+
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+</body>
+</html>
